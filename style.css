@@ -1,0 +1,321 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ? page one is stared from here  */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav {
+  position: relative;
+  top: 20px;
+  width: 80%;
+  border-radius: 10px;
+  padding: 10px 20px;
+  background-color: #f49c37d8;
+  backdrop-filter: blur(90px);
+}
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+  color: #1f1f1f;
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 5px 20px;
+  transition: all 0.3s ease-in-out;
+}
+ul li:hover a {
+  text-decoration: none;
+  color: #1f1f1f;
+  font-family: Quicksand;
+  border-radius: 5px;
+  background-color: #f1942ad8;
+  box-shadow: 0px 0px 5px #ebebeb;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 5px 20px;
+}
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin: 80px 50px;
+}
+.text h1 {
+  font-size: 50px;
+  font-weight: 700;
+  text-shadow: 2px 2px 2px white;
+
+  margin: 0;
+  color: #1f1f1f;
+  font-family: Dancing Script;
+  padding: 0;
+}
+.text h2 {
+  font-size: 40px;
+  font-weight: 700;
+  text-shadow: 2px 2px 2px white;
+
+  margin: 0;
+  color: #1f1f1f;
+  font-family: Dancing Script;
+  padding: 0;
+}
+.text button {
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-family: Quicksand;
+  font-weight: 700;
+  color: #1f1f1f;
+  margin: 10px 0px;
+  background-color: #d74126;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+.text button:hover {
+  background-color: #c4280c;
+  transform: scale(1.1);
+  color: #ffffff;
+  text-shadow: 2px 2px 2px black;
+}
+.page-1 {
+  background-color: #faf3dd;
+  background: url(one.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 95vh;
+}
+
+/* ^ page 2 is starting from here */
+
+.page-2 .part {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.part .mountain {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 500px;
+  background: url(mountains.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.part .plains {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 500px;
+  background: url(beach.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.part .mountain h2 {
+  color: #1f1f1f;
+  font-family: dancing script;
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  text-shadow: 2px 2px 2px white;
+  text-align: center;
+}
+.part .plains h2 {
+  color: #1f1f1f;
+  font-family: dancing script;
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  text-shadow: 2px 2px 2px white;
+
+  text-align: center;
+}
+.mountain button {
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-size: 23px;
+  font-family: Quicksand;
+  font-weight: 700;
+  color: #1f1f1f;
+  margin: 10px 0px;
+  text-shadow: 2px 2px 2px white;
+
+  background-color: #ff5e004b;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px wheat;
+  transition: all 0.4s ease-in-out;
+}
+.plains button {
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-size: 23px;
+  font-family: Quicksand;
+  font-weight: 700;
+  color: #1f1f1f;
+  margin: 10px 0px;
+  text-shadow: 2px 2px 2px white;
+  background-color: #2bf8ff69;
+  box-shadow: 0px 0px 10px black;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.plains button:hover {
+  background-color: rgba(255, 255, 255, 0.493);
+}
+
+.mountain button:hover {
+  box-shadow: 0px 0px black;
+  background-color: rgba(226, 113, 113, 0.493);
+}
+.page-2 {
+  background-color: #f1e5bc;
+}
+.page-2 h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  text-shadow: 2px 2px 2px white;
+  margin: 0;
+  color: #1f1f1f;
+  font-family: Dancing Script;
+}
+/* * page 3 is starting from here */
+
+.page-3 {
+  background-color: #f1e5bc;
+}
+.page-3 h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  text-shadow: 2px 2px 2px white;
+  margin: 0;
+  color: #1f1f1f;
+  font-family: Dancing Script;
+}
+.page-3 .row {
+  display: flex;
+  align-items: center;
+  margin-block: 50px;
+  justify-content: space-evenly;
+}
+.page-3 .row .card {
+  display: flex;
+  background-color: #181716;
+  align-items: center;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0px 10px;
+  transition: all 0.3s ease-out;
+}
+.page-3 .row .card:hover button {
+  background-color: rgba(255, 255, 255, 0.589);
+}
+.page-3 .row .card img {
+  height: 250px;
+  width: 200px;
+  margin: 0px 10px;
+  box-shadow: 0px 0px 10px white;
+  border-radius: 2px;
+  transition: all 0.3s ease-in-out;
+}
+.page-3 .row .card:hover img {
+  box-shadow: 0px 0px 10px black;
+}
+.page-3 .row .card:hover {
+  transform: scale(1.2);
+}
+.page-3 .row .card h4 {
+  font-size: 20px;
+  font-weight: 700;
+  position: relative;
+  top: 40px;
+  margin: 0;
+  padding: 0;
+  font-family: quicksand;
+  text-shadow: 2px 2px 2px white;
+  text-align: center;
+}
+.page-3 .row .card button {
+  border: none;
+  position: relative;
+  bottom: 40px;
+  border-radius: 3px;
+  padding: 5px 50px;
+  font-size: 15px;
+  font-family: Quicksand;
+  background-color: rgba(138, 138, 138, 0.562);
+  font-weight: 700;
+  transition: 0.3s all ease-in;
+  text-shadow: 2px 2px 2px rgb(224, 213, 213);
+}
+
+.page-3 .row .card button:hover {
+  background-color: #ffffffec;
+}
+/* ! page 4 is starting from here  */
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.column h3 a {
+  text-decoration: none;
+  color: #1f1f1f;
+  font-size: 27px;
+  font-weight: 700;
+  text-shadow: 2px 2px 2px white;
+  margin: 0;
+  padding: 0;
+  font-family: Dancing Script;
+}
+
+#search {
+  padding: 7px 20px;
+  color: whitesmoke;
+  background-color: #1f1f1f;
+  font-size: 20px;
+  font-family: quicksand;
+  border-radius: 4px;
+  width: 750px;
+}
+
+.search i {
+  font-size: 20px;
+  color: whitesmoke;
+  background-color: #1f1f1f;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+h3 i {
+  color: #303030;
+}
